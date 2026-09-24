@@ -32,10 +32,10 @@ Not Started
 
 ## Day 2 — Python for Automation
 
-- [ ] `requests`
+- [ ] requests
 - [ ] JSON
-- [ ] `os.environ`
-- [ ] `try/except`
+- [ ] os.environ
+- [ ] try/except
 - [ ] API requests
 
 ### Status
