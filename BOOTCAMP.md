@@ -1,121 +1,474 @@
-# AI Automation Bootcamp
+# ForgeMaster AI Automation Bootcamp
 
-## Purpose
+## Mission
 
-This repository supports a 30-day practical AI Automation learning journey. The focus is building real workflows and developing skills that are ready for client work.
+Build practical AI automation skills that solve real business problems, create portfolio proof, and can eventually be delivered as a freelance service.
 
-## Learning Roles
+The target path is:
 
-### ChatGPT — Senior Developer / Mentor
+**Business Problem → Automation → Working Proof → Portfolio → Client → Delivery → Retention**
 
-- Teach concepts and explain why they matter.
-- Give exercises and challenges; review student work.
-- Guide debugging and track learning direction.
-- Decide when a skill is ready to progress.
+---
 
-### Student — Junior Developer
+# Roles
 
-- Write important learning code and predict behavior before running it.
-- Attempt debugging independently before asking for a solution.
-- Explain what was learned, rebuild concepts, and apply them to realistic problems.
+## ChatGPT — Senior Developer / Mentor
 
-### Codex CLI — Implementation Assistant
+- Teach concepts.
+- Explain why they matter.
+- Give exercises and challenges.
+- Review student work.
+- Guide debugging.
+- Track learning direction.
+- Decide when a skill is ready for progression.
+- Keep the training focused on practical outcomes.
 
-- Execute explicitly requested implementation tasks and repetitive file or documentation work.
-- Inspect repository context before editing and run appropriate commands or tests when relevant.
-- Stay within scope and report changes and failures accurately.
+## Student — Junior Developer / Builder
+
+- Write important learning code.
+- Build workflows.
+- Predict behavior before running.
+- Attempt debugging before asking for the solution.
+- Explain what was learned.
+- Rebuild concepts.
+- Apply skills to realistic problems.
+- Commit meaningful work to GitHub.
+
+## Codex CLI — Implementation Assistant
+
+- Execute explicitly requested implementation tasks.
+- Handle repetitive coding and documentation work.
+- Inspect repository context before editing.
+- Run appropriate commands and tests.
+- Stay within the requested scope.
+- Report changes and failures accurately.
 - Never commit or push unless explicitly instructed.
 
-## Core Learning Philosophy
+---
 
-**20% Learn**  
-**80% Build**
+# Core Learning Philosophy
 
-Avoid tutorial hell. Learn only what is necessary for the current task.
+**20% Learn · 80% Build**
 
-## Learning Loop
+Avoid tutorial hell.
 
-1. **Understand** the goal and the problem it solves.
-2. **Observe** a relevant example or existing behavior.
-3. **Predict** what the code or workflow will do before running it.
-4. **Learn** the concepts needed to proceed.
-5. **Code** the important parts yourself.
-6. **Run** the code or workflow and observe the result.
-7. **Debug** errors by investigating and trying a fix.
-8. **Review** the result and the choices made.
-9. **Rebuild** the concept without relying on the original example.
-10. **Apply** it to a realistic problem.
+Learn only what is necessary for the current task, then apply it immediately.
 
-## Session Workflow
+---
 
-1. Define the objective.
-2. Learn the concept.
-3. Observe examples.
-4. Predict behavior.
-5. Write code.
-6. Run it.
-7. Debug if necessary.
-8. Review the result.
-9. Rebuild the concept.
-10. Apply it to a practical problem.
-11. Record progress.
-12. Commit meaningful changes.
+# Learning Loop
 
-## Debugging Protocol
+**Understand → Observe → Predict → Learn → Code/Build → Run → Debug → Review → Rebuild → Apply**
 
-1. Read the error.
-2. Locate the error.
-3. Interpret the message.
-4. Predict the cause.
-5. Attempt a fix.
-6. Run again.
-7. Compare results.
-8. Explain the fix.
+### Understand
+Understand the problem and desired outcome.
 
-## AI Usage Rules
+### Observe
+Study a relevant example or existing behavior.
 
-AI should explain, review, debug, suggest, and automate repetitive work. It should not automatically replace the student's learning exercises. For important learning code, the student writes the implementation first unless explicitly requesting a full solution.
+### Predict
+Predict what the code or workflow should do before running it.
 
-## Mastery Standard
+### Learn
+Learn only the concept required for the current task.
 
-A topic is not mastered simply because the code works. Mastery requires the ability to **understand, build, debug, explain, and apply** the topic.
+### Code / Build
+Write or build the important part yourself.
 
-## Progress Tracking
+### Run
+Execute the code or workflow.
 
-- **Notion:** Detailed learning tracker and planning.
-- **GitHub:** Code, technical evidence, documentation, and history.
-- **Codex:** Implementation assistant.
-- **ChatGPT:** Learning and review environment.
+### Debug
+Investigate failures before asking for the answer.
 
-## Git Workflow
+### Review
+Review the implementation and reasoning.
 
-Use small, meaningful commits. Examples:
+### Rebuild
+Recreate the concept without blindly copying.
 
-- `Add Python variables exercises`
-- `Add API request practice`
-- `Add n8n webhook workflow`
-- `Document OpenAI API basics`
+### Apply
+Use the skill on a new practical problem.
 
-Never commit secrets or credentials.
+---
 
-## Security
+# Mastery Standard
 
-Never commit API keys, passwords, access tokens, client credentials, or other private secrets. Use environment variables or secure credential storage.
+A topic is not mastered simply because the workflow works.
 
-## 30-Day Sprint Structure
+The student should be able to:
 
-### Week 1
+- Understand
+- Build
+- Debug
+- Explain
+- Apply
 
-Python fundamentals, n8n fundamentals, and OpenAI API fundamentals.
+---
 
-### Week 2
+# 90-Day Roadmap
 
-Build three portfolio workflows.
+## Month 1 — Foundation + First Workflow
 
-### Week 3
+### Week 1 — n8n Core + Deployment
 
-Client acquisition and outreach.
+Focus:
 
-### Week 4
+- Triggers
+- Nodes
+- Inputs / Outputs
+- Connections
+- Data Mapping
+- Expressions
+- Webhooks
+- HTTP Requests
+- Workflow Execution
+- Local vs hosted n8n
+- n8n Cloud
+- Self-hosting concepts
+- Environment variables
+- Credential / secret handling
 
-First client, delivery, feedback, and systematization.
+Build progressively:
+
+1. Manual Trigger → data
+2. Webhook → response
+3. Webhook → transformation → response
+4. Webhook → HTTP Request → response
+
+Deployment goal:
+
+- Understand local vs hosted execution.
+- Understand what 24/7 automation requires.
+- Deploy one working workflow using an appropriate hosting option.
+
+---
+
+### Week 2 — OpenAI API + AI Lead Enrichment
+
+Focus:
+
+- API requests
+- Authentication
+- Prompt / instructions
+- Structured JSON
+- Schema thinking
+- Function / tool calling
+- Error handling
+
+Build Portfolio Project 1:
+
+**AI Lead Enrichment & Personalized Outreach**
+
+Concept:
+
+**Authorized lead data → n8n → AI analysis → personalized message → review/approval → email → logging**
+
+Use authorized data sources and respect applicable platform terms and privacy requirements.
+
+Deliverables:
+
+- `workflow.json`
+- README
+- Architecture explanation
+- Screenshots
+- Loom demo
+- Test data
+- Setup instructions
+
+---
+
+### Week 3 — GoHighLevel + Loom Strike
+
+Focus:
+
+- Sub-accounts
+- Contacts
+- Custom fields
+- Tags
+- Pipelines
+- Opportunities
+- Workflows
+- Forms
+- Email / SMS actions
+- Basic integrations
+
+Build:
+
+**CSV / Form → GHL Contact → Tag → Pipeline → Follow-up**
+
+Prepare personalized demonstrations:
+
+- Choose a target niche.
+- Identify a real problem.
+- Build a relevant demo.
+- Record a 1–2 minute Loom.
+- Explain the problem.
+- Show the automation.
+- Show the expected outcome.
+
+Core principle:
+
+**Show the steel. Don't just describe it.**
+
+---
+
+### Week 4 — Beta Pilot + Case Study
+
+Primary goal:
+
+**First Beta Pilot**
+
+A beta can be:
+
+- Free
+- Discounted
+- Limited-scope
+
+Potential evidence:
+
+- Feedback
+- Testimonial
+- Case study
+- Performance measurements
+
+Do not assume a paying client is guaranteed within the first 30 days.
+
+### ROI Rule
+
+Never present simulated or estimated results as actual client results.
+
+Use:
+
+- Target
+- Estimated
+- Simulated
+
+Only call a result a measured outcome when actual evidence exists.
+
+---
+
+# Month 2 — Portfolio + Client Acquisition
+
+## Week 5 — Portfolio Project 2
+
+**Appointment Reminder Automation**
+
+Form → n8n → CRM → SMS / WhatsApp → Logging
+
+Deliver:
+
+- Workflow
+- Documentation
+- Screenshots
+- Loom demo
+- Test evidence
+
+---
+
+## Week 6 — Portfolio Project 3
+
+**Invoice / Receipt Automation**
+
+Google Form → n8n → AI extraction → PDF → Email → CRM / Log
+
+Deliver:
+
+- Workflow
+- Documentation
+- Screenshots
+- Loom demo
+- Test evidence
+
+---
+
+## Week 7 — Acquisition Setup
+
+Prepare:
+
+- Upwork
+- OnlineJobs PH
+- Fiverr
+- LinkedIn
+- Notion portfolio
+- Carrd
+- Loom
+- Proposal template
+- Discovery questions
+
+Portfolio communication:
+
+**Problem → Automation → Outcome → Proof**
+
+---
+
+## Week 8 — Outreach
+
+Track:
+
+- Messages sent
+- Replies
+- Calls
+- Qualified opportunities
+- Proposals
+- Wins
+- Losses
+- Rejection reasons
+
+Prefer personalized outreach over generic spam.
+
+Use Loom when a short demonstration communicates the solution better than text.
+
+---
+
+# Month 3 — Delivery + Retention
+
+## Weeks 9–10 — Client Delivery
+
+**Understand Problem → Confirm Scope → Build → Test → Document → Demo → Deliver → Support**
+
+---
+
+## Week 11 — Retention
+
+Potential recurring services:
+
+- Maintenance
+- Monitoring
+- Small workflow changes
+- Reporting
+- Support
+- Retainer
+
+Recurring services must correspond to actual ongoing client value.
+
+---
+
+## Week 12 — Systematize
+
+Create reusable:
+
+- Proposal template
+- Discovery checklist
+- Client onboarding
+- Testing checklist
+- Delivery checklist
+- Handover document
+- Support SOP
+- Retainer process
+
+---
+
+# Daily Accountability
+
+Every meaningful session should leave evidence.
+
+1. Define objective.
+2. Learn the required concept.
+3. Build.
+4. Run.
+5. Debug.
+6. Review.
+7. Record progress.
+8. Commit meaningful work.
+9. Push to GitHub.
+
+---
+
+# GitHub Evidence
+
+Use meaningful commits such as:
+
+- `Add n8n webhook exercise`
+- `Document n8n expressions`
+- `Add lead enrichment workflow`
+- `Add deployment notes`
+- `Record beta pilot results`
+
+Do not create fake progress commits.
+
+---
+
+# Progress Tracking
+
+**Notion**
+- Detailed tracker
+- Planning
+- Session notes
+- Personal reflections
+
+**GitHub**
+- Code
+- Workflow files
+- Technical documentation
+- Exercises
+- Project evidence
+- Commit history
+
+**ChatGPT**
+- Teaching
+- Review
+- Debugging
+- Challenges
+- Learning direction
+
+**Codex**
+- Approved implementation assistance
+
+---
+
+# AI Usage Rules
+
+AI may:
+
+- Explain
+- Review
+- Debug
+- Suggest
+- Automate repetitive work
+
+For important learning exercises, the student should attempt the implementation first.
+
+AI should not automatically replace the student's learning.
+
+---
+
+# Security
+
+Never commit:
+
+- API keys
+- Passwords
+- Access tokens
+- Client credentials
+- Private secrets
+
+Use environment variables and secure credential storage.
+
+---
+
+# Scope Control
+
+Current primary stack:
+
+**n8n + OpenAI + GoHighLevel**
+
+Supporting tools are introduced only when required by a project.
+
+The following are outside the current bootcamp focus:
+
+- React
+- MERN
+- Advanced Python
+- Machine learning
+- Fine-tuning
+- Building LLMs
+- Learning every automation platform
+
+Python is a supporting automation skill, not the primary curriculum.
+
+---
+
+# Long-Term Direction
+
+**Learn → Build → Demonstrate → Sell → Deliver → Retain → Systematize**

@@ -1,104 +1,179 @@
-# Week 1 — Foundation
+# Week 1 — n8n Core + Deployment
 
 ## Goal
 
-Learn the minimum Python, n8n, and OpenAI API skills needed to build practical AI automation workflows.
+Understand workflow automation fundamentals, build basic n8n workflows, and understand how a workflow moves from local development to reliable hosted execution.
 
-## Day 1 — Python Basics
+---
 
-- [ ] Variables
-- [ ] Data types
-- [ ] Lists
-- [ ] Dictionaries
-- [ ] Loops
-- [ ] Functions
+## Day 1 — n8n Fundamentals
 
-### Practice
-- [ ] Exercise 1
-- [ ] Exercise 2
-- [ ] Exercise 3
-
-### Status
-Not Started
-
-### Notes
--
-
-### Problems / Mistakes
--
-
-### What I Can Explain
--
-
-## Day 2 — Python for Automation
-
-- [ ] requests
-- [ ] JSON
-- [ ] os.environ
-- [ ] try/except
-- [ ] API requests
-
-### Status
-Not Started
-
-## Day 3 — n8n Basics
+### Concepts
 
 - [ ] Workflow
 - [ ] Trigger
 - [ ] Node
+- [ ] Input
+- [ ] Output
 - [ ] Connection
-- [ ] Webhook
-- [ ] HTTP Request
+- [ ] Execution
 
 ### Build
-- [ ] Hello World workflow
+
+- [ ] First basic workflow
 
 ### Status
+
 Not Started
 
-## Day 4 — n8n Practice
+### Notes
 
-- [ ] HTTP Request workflow
-- [ ] Google Sheets → Email workflow
+-
+
+### Problems / Mistakes
+
+-
+
+### What I Can Explain
+
+-
+
+---
+
+## Day 2 — Webhooks
+
+### Concepts
+
+- [ ] Webhook
+- [ ] HTTP request
+- [ ] HTTP response
+- [ ] HTTP method
+- [ ] Test execution
+
+### Build
+
+- [ ] Webhook → Response
 
 ### Status
+
 Not Started
 
-## Day 5 — OpenAI API
+### Notes
 
-- [ ] API request
-- [ ] Messages
-- [ ] System instructions
-- [ ] JSON responses
+-
+
+---
+
+## Day 3 — Data Handling
+
+### Concepts
+
+- [ ] Input data
+- [ ] Output data
+- [ ] Mapping
+- [ ] Expressions
+- [ ] JSON basics
+
+### Build
+
+- [ ] Webhook → Transformation → Response
 
 ### Status
+
 Not Started
 
-## Day 6 — Function Calling
+---
 
-- [ ] Understand function calling
-- [ ] Define a tool
-- [ ] Receive structured arguments
-- [ ] Execute an action
-- [ ] Return a result
+## Day 4 — HTTP Requests
+
+### Concepts
+
+- [ ] HTTP Request node
+- [ ] GET
+- [ ] POST
+- [ ] Headers
+- [ ] Query parameters
+- [ ] Request body
+
+### Build
+
+- [ ] Webhook → HTTP Request → Response
 
 ### Status
+
 Not Started
 
-## Day 7 — Review
+---
 
-- [ ] Review Python
-- [ ] Review n8n
-- [ ] Review OpenAI API
-- [ ] Review GitHub history
+## Day 5 — Workflow Logic
 
-### Week 1 Checkpoint
+### Concepts
 
-- [ ] Explain how an API works
-- [ ] Explain how an n8n workflow works
-- [ ] Explain how Python can call an API
-- [ ] Explain how AI connects to automation
-- [ ] Explain how API keys are protected
+- [ ] Conditions
+- [ ] Branching
+- [ ] Data transformation
+- [ ] Execution order
+
+### Practice
+
+- [ ] Build a conditional workflow
+
+### Status
+
+Not Started
+
+---
+
+## Day 6 — Deployment
+
+### Concepts
+
+- [ ] Local n8n
+- [ ] Hosted n8n
+- [ ] n8n Cloud
+- [ ] Self-hosting
+- [ ] Environment variables
+- [ ] Credentials
+- [ ] 24/7 execution
+
+### Build
+
+- [ ] Deploy one working workflow
+
+### Status
+
+Not Started
+
+---
+
+## Day 7 — Build Without Tutorial + Review
+
+### Challenge
+
+Build a small workflow using the concepts learned during Week 1.
+
+Requirements:
+
+- [ ] Trigger
+- [ ] At least two processing steps
+- [ ] Data mapping
+- [ ] Final output
+- [ ] Working execution
+- [ ] Basic deployment
+
+### Checkpoint
+
+Can I:
+
+- [ ] Explain what a workflow is?
+- [ ] Explain what a trigger does?
+- [ ] Explain what a node does?
+- [ ] Trace data through a workflow?
+- [ ] Build a webhook workflow?
+- [ ] Make an HTTP request from n8n?
+- [ ] Debug a failed execution?
+- [ ] Explain local vs hosted execution?
+- [ ] Explain how credentials are protected?
 
 ### Week 1 Status
 
@@ -114,4 +189,4 @@ Not Started
 
 ### Next Week
 
--
+Week 2 — OpenAI API + AI Lead Enrichment
